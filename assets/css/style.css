@@ -1,12 +1,12 @@
 body {
 	font: 1em/1.25em 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
-	background: url("./../images/light-grey-terrazzo.png") repeat #d2d7dd;
+	background: url("../../../Basic-Portfolio/assets/images/light-grey-terrazzo.png") repeat #d2d7dd;
 	color: #777;
 }
 
 header {
 	border-bottom: 1px solid #cccccc;
-	position:fixed;
+	position: fixed;
 	top:0;
 	background: #fff;
 	width:  100%;
@@ -228,4 +228,29 @@ div.gallery img {
     clear: both;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /*End of Portfolio attributes*/
+
+@media (max-width: 980px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .p {
+        font-size: 1.25rem;
+	}
+}
