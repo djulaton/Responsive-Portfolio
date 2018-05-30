@@ -228,29 +228,30 @@ div.gallery img {
     clear: both;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 /*End of Portfolio attributes*/
 
 @media (max-width: 980px) {
     .container {
-        width: 100%;
+		width: 100%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         width: 49.99999%;
-        margin: 6px 0;
-    }
+		margin: 6px 0;
+	}
+	.p {
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
 }
 
-@media (max-width: 640px) {
-    .p {
+@media only screen and (max-width: 640px) {
+    .container {
         font-size: 1.25rem;
+	}
+	.p {
+		font-size: 1.25rem;
 	}
 }
