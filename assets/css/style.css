@@ -118,9 +118,8 @@ p.title {
 }
 
 section {
-	width: 960px;
+	width: 88%;
 	padding: 0 2em;
-	max-width: 896px;
 	margin:0 auto;
 }
 
@@ -231,14 +230,14 @@ div.gallery img {
 /*End of Portfolio attributes*/
 
 @media (max-width: 980px) {
-    .container {
-		width: 100%;
+    .section {
+		width: 88%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        width: 49.99999%;
+    .section {
+        width: 88%;
 		margin: 6px 0;
 	}
 	.p {
@@ -248,8 +247,8 @@ div.gallery img {
 }
 
 @media only screen and (max-width: 640px) {
-    .container {
-        font-size: 1.25rem;
+    .section {
+		width: 88%;
 	}
 	.p {
 		font-size: 1.25rem;
