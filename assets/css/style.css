@@ -230,27 +230,103 @@ div.gallery img {
 /*End of Portfolio attributes*/
 
 @media (max-width: 980px) {
-    .section {
+    .container {
 		width: 88%;
-    }
+	}
+	
+	.main section {
+		width: 70%;
+		margin-right: 23%;
+	}
+
+	.column {
+		width: 88%;
+		margin-left: 8%;
+	}
+
+	div.gallery {
+		width: 231px;
+		height: 214px;
+	}
+
+	.text-block {
+		width: 87.5%;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-    .section {
+    .main section {
         width: 88%;
-		margin: 6px 0;
 	}
 	.p {
 		font-size: 1.5rem;
 		line-height: 1.5;
 	}
+
+	.column {
+		width: 88%;
+		margin-left: 8%;
+	}
+
+	div.gallery {
+		width: 231px;
+		height: 214px;
+	}
+
+	.text-block {
+		width: 87.5%;
+	}
 }
 
 @media only screen and (max-width: 640px) {
     .section {
+		margin-top: 10px;
+		padding: 0 1em;
 		width: 88%;
 	}
-	.p {
-		font-size: 1.25rem;
+
+	header {
+		width: 116%;
 	}
+
+	main section {
+		padding-top: 0em;
+		padding-bottom: 0em;
+		margin-top: 24%
+	}
+	nav {
+		margin-right: 34%;
+		margin-top: -20px;
+	}
+	p.title {
+		padding: 0.5em 6.25em;
+		margin-bottom: -6px;
+		margin-left: -1%;
+	}
+	footer {
+		margin-top: 1em;
+	}
+
+	div.gallery {
+		width: 256px;
+		height: 258px;
+	}
+
+	div.gallery img {
+		width: 99%;
+	}
+	.text-block {
+		width: 88.5%;
+	}
+
+	.profile-photo {
+		margin-left: 10em;
+		float: none;
+	}
+
+	p {
+		line-height: 1.5em;
+    	font-size: 93%;
+	}
+
 }
